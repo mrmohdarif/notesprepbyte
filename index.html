@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nodejs</title>
+</head>
+<pre>
+    <h1>What is node.js ?</h1>
+    <pre>
+        node js is opensource cross platform javascript runtime enviroment
+
+        where opensource means:-it freely available every one can use,
+        crossplatform:-it;s run in every system weather it line wondows,mac,linux,etc
+    </pre>
+
+    <h1>What is NPM?</h1>
+    <pre>
+        npm stands for node packege managener it is packege manager of javascript programming language 
+        it is used for manage packege and library
+    </pre>
+
+    <h1>What are the modules in Node.js?</h1>
+
+    <pre>
+        node js module are peace of code it is promoting the resusability of code and maintability of code
+
+        there are three typr of module 
+        1.core module(core module are inbuit module it comes with bundle of nodejs  **example of core module:- http,fs,https,util,path)
+        2.user module(user module are define by user it stored it seperat file and we export/import these module and  that can other module can access the module)
+        3.third part module(thrd party module are crated by developper and it is published on npm registry and we  cab install this and use it.)
+    </pre>
+     <h1>What is the purpose of the module.exports?</h1>
+     <pre>
+        module.export is used for exporting variable function and object that can access by other module
+     </pre>
+     <h1>Difference between default export and named export</h1>
+     <pre>
+        both are used for exporting the modules.
+        default.export:-it can export only one module in a file but in some senerio we have multiple module that time we used named.export in default.export no need to used {} 
+        named.export:-it have the ability to export multiple module
+    </pre>
+    <h1>How do you import any module in Node.js	</h1>
+    <pre>
+        const variable=require('http') // module name
+    </pre>
+
+    <h1>Difference between HTTP and HTTPS</h1>
+     </pre>http:- hypertext transfer protocall
+     https:- hypertext transfer protocall secure
+     http Vs https
+
+     https module more secure than http
+
+     https follw some encryption and decryption method and application layer</pre>
+    <h1>What is Express. how it helps you to create a backend application, Advantages of using express.</h1>
+    <pre>
+        Express is a framework of node it is widley accepted framework it provide the some extra feature and tool that robust  the development process and make it easy
+         express can handle middleware,routing,request handler,error
+    </pre>
+    <h1>What are the different types of HTTP requests?</h1>
+    <pre>
+        there are 7 to 8 http request method 
+        but mainly 4 are used most of the time 
+        get ,post.put ,delete
+        
+        get: this method is used for retrive data or read data.
+        
+        post:-this method is used for create and update data
+        
+        pust:-this method is used for updating the exishting method
+        
+        delete:- deleting the data
+         
+        patch:-partily update the exishting data
+    </pre>
+
+    <h1>Blocking v/s non-blocking</h1>
+    <pre>
+        blocking:-blocking means next code not execited unitl that particuler line not executed
+        non-blocking:- non-blocking means code are not block it can handle multiple request and response it is not stuck on a point
+    </pre>
+     <h1>discuss 5 status code in node</h1>
+     <pre>
+        there are diffrent lot of the status code
+        most 5 are happen
+
+        200(Ok)=>it indecate that response sucessfully return 
+        404(Not Found)=>this is indicate that resource not found
+        400(Bab Request)=>this is indecate that server not understand request due to invalid request or paramiter missing
+        500(Internal server error)=> this is indicate that internal server error while processing request
+        403(Unauthorized)=>it indicate that user credential not correct 
+     </pre>
+     <h1>explain cors</h1>
+     <pre>
+        cors=>cross origin resource sharing
+        it help to connect to front end to backend 
+        which two domain can communicate each other
+
+        packege=> npm install --save cross
+
+        const cors=require('cors')
+
+        app.use(cors({
+            origin:"*", or "http://localhost:800/",['one','two']
+        }))
+     </pre>
+     <h1>Middleware</h1>
+     <pre>
+        
+     </pre>
+</body>
+</html>
